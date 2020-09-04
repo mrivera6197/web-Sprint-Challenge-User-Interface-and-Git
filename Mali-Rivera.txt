@@ -1,0 +1,18 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+semantic HTML is used to create meaning of the information on the web page. A semantic element describes its meaning in its name. For example  <header></header> creates the header of a webpage. It is best practice to use semantic HTML as much as possible. 
+
+Name two big differences between display: block; and display: inline;
+
+inline elements take up only as much space as needed while black elements take up an entire row. 
+
+What are the 4 areas of the box model?
+content, margin, padding, and border. 
+
+While using flexbox, what axis does the following property work on: align-items: center?
+
+the perpendicular axis 
+
+Explain why git is valuable to a team of developer
+
+git allows others to fork copies of code to work on individually and then review collectively in order to update the original code. 
