@@ -129,6 +129,7 @@ h1{
 }
 
 /*Top section styles*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -241,7 +242,7 @@ footer nav a {
     text-decoration: none;
 }
 
-/* about section styles*/
+/* About Section Styles*/
 
 .about-top, .work-together{
     display: flex;
@@ -253,7 +254,6 @@ footer nav a {
 .work-together{
     margin: 0 2% 5% 2%;
 }
-
 
 
 .about-top-container, .about-bottom-container{
@@ -283,6 +283,9 @@ footer nav a {
 h2 {
     margin: 4% 0;
 }
+
+/*Button sytles*/
+
 .learn-button{
     background: white;
     color: black;
@@ -295,6 +298,7 @@ h2 {
     text-align: center;
     text-decoration: none;
 }
+/*Navigation sytles*/
 
 .about-nav {
     display: flex;
