@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -18,11 +20,17 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+*{
+    box-sizing:border-box;
+    /* border:1px solid grey; */
+    max-width:100%;
+  }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -71,6 +79,57 @@ p {
     margin: 0 auto;
 }
 
+/*Header styles*/
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header-right{
+    width: 45%;
+    margin: 3% 0;
+}
+
+.header-left{
+    width: 20%;
+    margin: 3% 0;
+}
+nav a{
+    text-decoration: none;
+    margin: 2% 5% 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+h1{
+    font-size: 35px;
+    font-family:'Poppins', sans-serif, Arial, sans-serif;
+}
+
+.special{
+    background: black;
+    color: white;
+    padding: 0 20px;
+    font-size: 50px;
+    margin: 0 2%;
+    font-family:'Poppins', sans-serif, Arial, sans-serif;
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+/*Top section styles*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,10 +160,9 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +170,45 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background: teal;
+}
+
+.box2{
+    background: gold;
+}
+
+.box3{
+    background: cadetblue;
+}
+
+.box4{
+    background: coral;
+}
+
+.box5{
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7{
+    background: darkorchid;
+}
+
+.box8{
+    background: hotpink;
+}
+
+.box9{
+    background: indigo;
+}
+
+.box10{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +240,67 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Section Styles*/
+
+.about-top, .work-together{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2%;
+} 
+
+.work-together{
+    margin: 0 2% 5% 2%;
+}
+
+
+.about-top-container, .about-bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.strategy, .work, .places, .collaboration {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+   margin: 2%;
+   border-bottom: 1px dashed grey;
+}
+
+.strategy, .work, .places, .collaboration p {
+    margin: 2% 0;
+}
+
+.strategy, .work, .places, .collaboration img {
+    margin: 2%;
+}
+
+h2 {
+    margin: 4% 0;
+}
+
+/*Button sytles*/
+
+.learn-button{
+    background: white;
+    color: black;
+    padding: 2%;
+    margin: 5% 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Navigation sytles*/
+
+.about-nav {
+    display: flex;
+    align-content: flex-start;
 }
